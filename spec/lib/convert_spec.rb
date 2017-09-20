@@ -12,7 +12,12 @@ describe Currency do
     # randomize the amount of money to be converted
     amount = rand(1..9999)
 
+    # with both currencies and the amount of money it tries to calculate the
+    # converted value for the desired currency.
+
     value = Currency::convert currency, currency_destination, amount
-    expect(value.is_a? Numeric and value != 0).to eql(true)
+  
+    expect(value.is_a? Numeric).to eql(true)
+    expect(value != 0).to eql(true)
   end
 end

@@ -1,6 +1,8 @@
 require_relative 'boot'
 
 require 'rails/all'
+1
+require './lib/convert'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.

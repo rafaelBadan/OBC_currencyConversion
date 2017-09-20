@@ -9,7 +9,7 @@ describe Currency do
     # variable currency_destination is loaded with the second sampled currency from currency_list.json
     currency, currency_destination = json['currency_list'].sample(2)
 
-    #The amount of money to be converted
+    # randomize the amount of money to be converted
     amount = rand(1..9999)
 
     value = Currency::convert currency, currency_destination, amount

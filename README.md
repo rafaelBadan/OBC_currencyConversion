@@ -3,7 +3,7 @@
 ## Introduction
 Making use of the [Fixer.io](http://fixer.io/) API, the **Currency Conversion App** is a simple tool to easily convert any kind of currency to another.
 
-## [Visit the app in Heroku](https://onebitcode-currencyconversion.herokuapp.com/)
+**[Visit the app in Heroku](https://onebitcode-currencyconversion.herokuapp.com/)**
 
 ## Features
 * Selection of currencies from a dropdown or text input search

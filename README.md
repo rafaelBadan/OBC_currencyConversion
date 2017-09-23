@@ -1,3 +1,5 @@
+[ ![Codeship Status for rafaelBadan/OBC_currencyConversion](https://app.codeship.com/projects/ea98aee0-8222-0135-4f11-0268edf0f044/status?branch=master)](https://app.codeship.com/projects/247167)
+
 ## Introduction
 Making use of the [Fixer.io](http://fixer.io/) API, the **Currency Conversion App** is a simple tool to easily convert any kind of currency to another.
 

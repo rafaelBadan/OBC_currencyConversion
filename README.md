@@ -11,6 +11,7 @@ The **Currency Conversion App** is a simple tool to easily convert any kind of c
 * [PostgreSQL](https://www.postgresql.org/)
 * [Ruby on Rails](http://rubyonrails.org/)
 * [TDD aproach](https://en.wikipedia.org/wiki/Test-driven_development)
+# [CodeShip (for CI)](https://codeship.com/)
 
 ## Setup
 This README would normally document whatever steps are necessary to get the

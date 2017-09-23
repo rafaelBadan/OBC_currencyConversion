@@ -1,5 +1,7 @@
 ## Introduction
-The **Currency Conversion App** is a simple tool to easily convert any kind of currency to another. Using the [Fixer.io](http://fixer.io/) API
+Making use of the [Fixer.io](http://fixer.io/) API, the **Currency Conversion App** is a simple tool to easily convert any kind of currency to another.
+
+## [Visit the app in Heroku](https://onebitcode-currencyconversion.herokuapp.com/)
 
 ## Features
 * Selection of currencies from a dropdown or text input search
@@ -11,7 +13,7 @@ The **Currency Conversion App** is a simple tool to easily convert any kind of c
 * [PostgreSQL](https://www.postgresql.org/)
 * [Ruby on Rails](http://rubyonrails.org/)
 * [TDD aproach](https://en.wikipedia.org/wiki/Test-driven_development)
-# [CodeShip (for CI)](https://codeship.com/)
+* [CodeShip (for CI)](https://codeship.com/)
 
 ## Setup
 This README would normally document whatever steps are necessary to get the

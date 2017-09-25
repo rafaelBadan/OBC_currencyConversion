@@ -1,5 +1,5 @@
 $(document).ready ->
-  $('form').submit ->
+  $('#amount').on change: ->
     if $('form').attr('action') == '/convert'
       $.ajax '/convert',
           type: 'POST'

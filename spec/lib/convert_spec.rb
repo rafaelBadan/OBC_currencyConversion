@@ -16,7 +16,7 @@ describe Currency do
     # converted value for the desired currency.
 
     value = Currency::convert currency, currency_destination, amount
-  
+
     expect(value.is_a? Numeric).to eql(true)
     expect(value != 0).to eql(true)
   end

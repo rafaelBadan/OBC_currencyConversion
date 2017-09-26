@@ -14,3 +14,10 @@ $(document).ready ->
           success: (data, text, jqXHR) ->
             $('#result').val(data.value)
         return false;
+
+  #$('#swap').click: ->
+    # curr_dest = $('#currency_destination').val();
+      alert "teste"
+  #   curr = $("#currency").val();
+  #   $("#currency").val(curr_dest);
+  #   $('#currency_destination').val(curr);

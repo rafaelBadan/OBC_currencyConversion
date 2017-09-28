@@ -1,9 +1,16 @@
+.logo-box {
+  padding: 10px;
+  align-content: center;
+  align-items: center;
+}
+
 .convert_box{
     .card{
       border: 0;
+      border-radius: 3px;
+      background: rgba(255, 255, 255, 0.2);
       .card-header{
-        background-color: #878d99;
-        border-radius: 0;
+        background: rgba(0, 0, 0, 0.4);
         color: white;
         font-weight: 700;
       }
@@ -13,11 +20,15 @@
           color: #878d99;
           font-weight: 700;
         }
-
-        .btn-convert{
-          background-color: #5bc0de;
-          border-color: #5bc0de;
-          border-radius: 0;
+        .currency-box {
+          padding-left: 0px;
+        }
+          .btn-swap{
+            text-align: center;
+            padding: 30px 0;
+            background-color: #0fa3ef;
+            border-color: #0fa3ef;
+            border-radius: 3px;
         }
       }
     }

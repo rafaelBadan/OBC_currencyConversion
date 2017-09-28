@@ -24,7 +24,7 @@ At first, you need to setup some configurations after clonning the repo to your 
 
 ### 1. Database
 
-If you want to use, your first step must be create your `database.yml` with the following content
+If you want to run the app in your machine, you'll need to create your `database.yml` with the following content
 
 ```yaml
 default: &default

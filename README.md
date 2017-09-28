@@ -17,26 +17,46 @@ Making use of the [Fixer.io](http://fixer.io/) API, the **Currency Conversion Ap
 * [TDD aproach](https://en.wikipedia.org/wiki/Test-driven_development)
 * [CodeShip (for CI)](https://codeship.com/)
 
+
 ## Setup
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+At first, you need to setup some configurations after clonning the repo to your local machine.
 
-* Ruby version
+### 1. Database
 
-* System dependencies
+If you want to use, your first step must be create your `database.yml` with the following content
 
-* Configuration
+```yaml
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: postgres
+  username: postgres
 
-* Database creation
+development:
+  <<: *default
+  database: obccurrencyconversion_development
 
-* Database initialization
+test:
+  <<: *default
+  database: obccurrencyconversion_test
 
-* How to run the test suite
+production:
+  <<: *default
+  database: obccurrencyconversion_production
 
-* Services (job queues, cache servers, search engines, etc.)
+```
 
-* Deployment instructions
+### 2. Docker setup
 
-* ....
+ As we use docker, we have a `docker-compose.yml` for it.
+
+ After creating this file, run the following commands:
+
+ ```sh
+ 1. docker-compose build
+ 2. docker-compose run --rm website bundle install
+ 3. docker-compose run --rm website bundle exec rails db:create
+ 4. docker-compose run --rm website bundle exec rails db:migrate
+ 5. docker-compose up

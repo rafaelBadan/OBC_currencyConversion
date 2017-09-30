@@ -1,5 +1,5 @@
 $(document).ready ->
-  $("#amount, #currency, #currency_destination").bind "change keyup input": ->
+  $("#amount, #currency, #currency_destination").on "change keyup input": ->
       convert();
 
   $('#swap_currencies').click ->
